@@ -47,6 +47,7 @@ div{
 	flex:0;
 }
 .card_para{
+	display: none;
 	flex:1 0 auto;
 }
 

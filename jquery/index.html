@@ -6,22 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <script src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+      <script type="text/javascript" src="jquery.js"></script>
     <title>1st Jquery</title>
     
     <style type="text/css">
-        p {
-            font-size: 1.5em;
-            font-family: sans-serif;
+        #myParagraph {
+            font-size: 3em;
+        }
+        
+        .oldClass {
+            font-size: 5em;
+            color: red;
+        }
+        
+        .newClass {
+            font-size: 1em;
+            color: blue;
+            margin-top: 150px;
         }
     </style>
 </head>
 <body>
     
-    <p>This is a paragraph that I'm going to use jquery with</p>
+    <p id="myParagraph">CLICK ON ME</p>
     
-    <script>
-        $("p").css("background-color", "lemonchiffon");
-    </script>
+    <p class="oldClass">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, est.</p>
     
 </body>
 </html>
